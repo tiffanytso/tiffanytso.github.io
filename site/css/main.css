@@ -1,0 +1,118 @@
+body {
+    width: 100%;
+}
+
+html {
+    height: 100%
+}
+
+h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+/*
+    Navigation Bar/Menu
+ */
+
+#icon-menu > a, #icon-menu > a:hover {
+    color: #FFFFFF;
+}
+
+.navbar, .navbar-toggle {
+    width: 100%;
+    height: 50px;
+}
+
+.nav-link, .nav-link > a, .navlink > a:hover {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
+}
+
+.navbar-collapse {
+    text-align: center;
+    background-color: transparent;
+    padding-top: 35px;
+}
+
+/*
+    Welcome Banner
+ */
+
+.welcome-banner {
+    height: 100%;
+    padding-top: 255px;
+    padding-bottom: 300px;
+    background-size: cover;
+    text-align: center;
+    background: url(../img/bridge.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#welcome-banner-message {
+    font-family: 'Nixie One', cursive;
+    font-weight: lighter;
+    color: #EDEEEF;
+}
+
+#welcome-banner-message > h1 {
+    font-family: 'Nixie One', cursive;
+    font-size: 140px;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    line-height: 100%;
+}
+
+#welcome-banner-message > h3 {
+    font-size: 50px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+    line-height: 5%;
+}
+
+/*
+    About Me
+*/
+
+.about-me {
+    height: 75%;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+/*
+    Contact Me section
+ */
+
+.contact-me {
+    text-align: center;
+    color: #000000;
+    height: 30%;
+}
+
+.contact-me > h2 {
+    font-family: 'Nixie One', cursive;
+    font-weight: lighter;
+}
+
+.parallax {
+    background: url(../img/header.jpeg) no-repeat center center;
+    height: 30%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 165px;
+    padding-bottom: 30px;
+}
