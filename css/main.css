@@ -50,7 +50,7 @@ p {
     padding-bottom: 300px;
     background-size: cover;
     text-align: center;
-    background: url(../img/bridge.jpg) no-repeat center center;
+    background: url(../assets/bridge.jpg) no-repeat center center;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -105,7 +105,7 @@ p {
 }
 
 .parallax {
-    background: url(../img/header.jpeg) no-repeat center center;
+    background: url(../assets/header.jpeg) no-repeat center center;
     height: 30%;
     background-attachment: fixed;
     background-position: center;
