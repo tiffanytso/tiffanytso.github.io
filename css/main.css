@@ -6,7 +6,7 @@ html {
     height: 100%
 }
 
-h1 {
+h1, h4 {
     font-family: 'Titillium Web', sans-serif;
     font-weight: 200;
 }
@@ -14,6 +14,10 @@ h1 {
 p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
+}
+
+a, a:hover, a:active, a:visited {
+    color: #136F63;
 }
 
 /*
@@ -88,6 +92,16 @@ p {
     text-align: center;
     padding-top: 35px;
     padding-bottom: 20px;
+    color: #000000;
+    background: #FFFFFF;  /* fallback for old browsers */
+}
+
+.card {
+    color: #000000;
+    background: #FFFFFF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #EDEEEF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #EDEEEF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 40px;
 }
 /*
     Contact Me section
@@ -104,6 +118,23 @@ p {
     font-weight: lighter;
 }
 
+#resume {
+    background-color: #136F63;
+    color: #FFFFFF;
+}
+
+#wait, #socialmedia {
+    font-family: 'Nixie One', cursive;
+    font-weight: lighter;
+    color: #136F63;
+}
+
+#wait > b, #wait > h1, #socialmedia > h3, #socialmedia > a {
+    font-family: 'Nixie One', cursive;
+    font-weight: lighter;
+    color: #FFFFFF;
+}
+
 .parallax {
     background: url(../assets/header.jpeg) no-repeat center center;
     height: 30%;
@@ -113,6 +144,6 @@ p {
     background-size: cover;
     text-align: center;
     color: #FFFFFF;
-    padding-top: 165px;
-    padding-bottom: 30px;
+    padding-top: 130px;
+    padding-bottom: 100px;
 }
