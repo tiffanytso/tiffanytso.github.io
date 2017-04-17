@@ -16,7 +16,7 @@ p {
     font-weight: 300;
 }
 
-a, a:hover, a:active, a:visited {
+a, a:hover, a:active, a:visited, nav-link {
     color: #136F63;
 }
 
@@ -103,6 +103,12 @@ a, a:hover, a:active, a:visited {
     background: linear-gradient(to right, #FFFFFF, #EDEEEF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 40px;
 }
+
+.text-muted {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
+}
+
 /*
     Contact Me section
  */
