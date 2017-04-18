@@ -1,5 +1,5 @@
 body {
-    width: 100%;
+    position: relative;
 }
 
 html {
@@ -16,7 +16,7 @@ p {
     font-weight: 300;
 }
 
-a, a:hover, a:active, a:visited, nav-link {
+a, a:hover, a:visited, nav-link {
     color: #136F63;
 }
 
