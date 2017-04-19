@@ -104,9 +104,10 @@ a, a:hover, a:visited, nav-link {
     border-radius: 40px;
 }
 
-.text-muted {
+#awards {
     font-family: 'Titillium Web', sans-serif;
     font-weight: 200;
+    color: #136F63;
 }
 
 /*
