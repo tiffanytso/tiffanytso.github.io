@@ -54,7 +54,7 @@ a, a:hover, a:visited, nav-link {
     padding-bottom: 300px;
     background-size: cover;
     text-align: center;
-    background: url(../assets/bridge.jpg) no-repeat center center;
+    background: url(https://source.unsplash.com/71vAb1FXB6g/1600x900) no-repeat center center;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -80,7 +80,6 @@ a, a:hover, a:visited, nav-link {
 #welcome-banner-message > h3 {
     font-size: 50px;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
-    line-height: 5%;
 }
 
 /*
