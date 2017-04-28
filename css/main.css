@@ -4,6 +4,7 @@ body {
 
 html {
     height: 100%
+    width: 100%
 }
 
 h1, h4 {
@@ -72,9 +73,8 @@ a, a:hover, a:visited, nav-link {
 
 #welcome-banner-message > h1 {
     font-family: 'Nixie One', cursive;
-    font-size: 140px;
+    font-size: 120px;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    line-height: 100%;
 }
 
 #welcome-banner-message > h3 {
