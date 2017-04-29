@@ -1,3 +1,4 @@
+/* -------- default ----------- */
 body {
     position: relative;
 }
@@ -17,13 +18,15 @@ p {
     font-weight: 300;
 }
 
-a, a:hover, a:visited, nav-link {
-    color: #136F63;
+a, nav-link {
+    color: #021B79;
 }
 
-/*
-    Navigation Bar/Menu
- */
+a:hover, a:active {
+    color: #43C6AC;
+}
+
+/* Navigation Bar and Menu */
 
 #icon-menu > a, #icon-menu > a:hover {
     color: #FFFFFF;
@@ -49,22 +52,6 @@ a, a:hover, a:visited, nav-link {
     Welcome Banner
  */
 
-.welcome-banner {
-    height: 100%;
-    padding-top: 255px;
-    padding-bottom: 300px;
-    background-size: cover;
-    text-align: center;
-    background: url(https://source.unsplash.com/71vAb1FXB6g/1600x900) no-repeat center center;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-}
-
 #welcome-banner-message {
     font-family: 'Nixie One', cursive;
     font-weight: lighter;
@@ -73,13 +60,70 @@ a, a:hover, a:visited, nav-link {
 
 #welcome-banner-message > h1 {
     font-family: 'Nixie One', cursive;
-    font-size: 120px;
+    font-size: 100px;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
 #welcome-banner-message > h3 {
     font-size: 50px;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+}
+
+/* --------- desktop screen ------------- */
+@media screen and (min-width: 1024px) {
+    .welcome-banner {
+        height: 100%;
+        padding-top: 255px;
+        padding-bottom: 300px;
+        text-align: center;
+        background: url(../assets/header.jpeg) no-repeat center center;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    }
+}
+
+/* -------- tablets----------- */
+@media screen and (min-width: 768px) {
+    .welcome-banner {
+        height: 100%;
+        padding-top: 255px;
+        padding-bottom: 300px;
+        text-align: center;
+        background: url(../assets/header.jpeg) no-repeat center center;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    }
+}
+
+/* --------- smartphone ----------- */
+@media screen and (max-width: 767px) {
+    .welcome-banner {
+        height: 100%;
+        padding-top: 255px;
+        padding-bottom: 300px;
+        background-size: cover;
+        text-align: center;
+        background: #43C6AC;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #43C6AC, #191654);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #43C6AC, #191654); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    }
 }
 
 /*
@@ -106,7 +150,7 @@ a, a:hover, a:visited, nav-link {
 #awards {
     font-family: 'Titillium Web', sans-serif;
     font-weight: 200;
-    color: #136F63;
+    color: #021B79;
 }
 
 /*
@@ -124,32 +168,107 @@ a, a:hover, a:visited, nav-link {
     font-weight: lighter;
 }
 
-#resume {
-    background-color: #136F63;
-    color: #FFFFFF;
+/* --------- desktop screen ------------- */
+@media screen and (min-width: 1024px) {
+    .parallax {
+        background: url(../assets/header.jpeg) no-repeat center center;
+        height: 30%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 130px;
+        padding-bottom: 100px;
+    }
+
+    #resume {
+        background-color: #136F63;
+        color: #FFFFFF;
+    }
+
+    #wait, #socialmedia {
+        font-family: 'Nixie One', cursive;
+        font-weight: lighter;
+        color: #136F63;
+    }
+
+    #wait > b, #wait > h1, #socialmedia > h3, #socialmedia > a {
+        font-family: 'Nixie One', cursive;
+        font-weight: lighter;
+        color: #FFFFFF;
+    }
 }
 
-#wait, #socialmedia {
-    font-family: 'Nixie One', cursive;
-    font-weight: lighter;
-    color: #136F63;
+/* -------- tablets----------- */
+@media screen and (min-width: 768px) {
+    .parallax {
+        background: url(../assets/header.jpeg) no-repeat center center;
+        height: 30%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 130px;
+        padding-bottom: 100px;
+    }
+
+    #resume {
+        background-color: #136F63;
+        color: #FFFFFF;
+    }
+
+    #wait, #socialmedia {
+        font-family: 'Nixie One', cursive;
+        font-weight: lighter;
+        color: #136F63;
+    }
+
+    #wait > b, #wait > h1, #socialmedia > h3, #socialmedia > a {
+        font-family: 'Nixie One', cursive;
+        font-weight: lighter;
+        color: #FFFFFF;
+    }
 }
 
-#wait > b, #wait > h1, #socialmedia > h3, #socialmedia > a {
-    font-family: 'Nixie One', cursive;
-    font-weight: lighter;
-    color: #FFFFFF;
-}
+/* --------- smartphone ----------- */
+@media screen and (max-width: 767px) {
+    .parallax {
+        height: 30%;
+        background-size: cover;
+        text-align: center;
+        background: #43C6AC;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #43C6AC, #191654);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #43C6AC, #191654); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: #FFFFFF;
+        padding-top: 130px;
+        padding-bottom: 100px;
+    }
 
-.parallax {
-    background: url(../assets/header.jpeg) no-repeat center center;
-    height: 30%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    color: #FFFFFF;
-    padding-top: 130px;
-    padding-bottom: 100px;
+    #resume {
+        background-color: #FFFFFF;
+        color: #136F63;
+    }
+
+    #wait, #socialmedia {
+        font-family: 'Nixie One', cursive;
+        font-weight: lighter;
+        color: #FFFFFF;
+    }
+
+    #wait > b, #wait > h1, #socialmedia > h3, #socialmedia > a {
+        font-family: 'Nixie One', cursive;
+        font-weight: lighter;
+        color: #FFFFFF;
+    }
 }
